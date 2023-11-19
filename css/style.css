@@ -2,3 +2,20 @@ body{
   color: #3E3E3E;
   font-family: Poppins;
 }
+/* header styles */
+.navbar-nav{
+  position: absolute;
+}
+@media screen and (max-width:991.98px) {
+  .navbar-nav{
+    position: relative;
+  }
+}
+.navbar-brand{
+  font-size: 22px;
+  font-weight: 700;
+}
+.nav-link{
+  font-size: 16px;
+  font-weight: 500;
+}
